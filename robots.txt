@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
-Sitemap: https://susannarasmussen.github.io/sitemap.xml
+
+# 如果你用的是 sitemap.xml：
+Sitemap: https://susanna-rasmussen.com/sitemap.xml
+
+# 如果你用的是 sitemap_index.xml（有多张子站点图）：
+# Sitemap: https://susanna-rasmussen.com/sitemap_index.xml
