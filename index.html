@@ -18,15 +18,24 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<!-- Social cards (FB/WhatsApp/Telegram) use banner -->
+<!-- Social cards: portrait first, banner second -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Susanna Rasmussen">
 <meta property="og:title" content="Susanna Rasmussen — Independent Investor">
 <meta property="og:description" content="Independent investor. Research-driven, risk-aware approach; selected notes and ways to get in touch.">
 <meta property="og:url" content="https://susanna-rasmussen.com/">
-<meta property="og:image" content="https://Susanna-rasmussen.com/assets/og-cover-investor-v2.jpg">
-<meta property="og:image:secure_url" content="https://Susanna-rasmussen.com/assets/og-cover-investor-v2.jpg">
+
+<!-- 1) Portrait (preferred) -->
+<meta property="og:image" content="https://susanna-rasmussen.com/assets/Susanna.jpg">
+<meta property="og:image:secure_url" content="https://susanna-rasmussen.com/assets/Susanna.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:alt" content="Portrait of Susanna Rasmussen">
+
+<!-- 2) Banner (secondary) -->
+<meta property="og:image" content="https://susanna-rasmussen.com/assets/og-cover-investor-v2.jpg">
+<meta property="og:image:secure_url" content="https://susanna-rasmussen.com/assets/og-cover-investor-v2.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Susanna Rasmussen — Independent Investor">
@@ -34,19 +43,19 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Susanna Rasmussen — Independent Investor">
 <meta name="twitter:description" content="Independent investor. Research-driven, risk-aware approach; selected notes and ways to get in touch.">
-<meta name="twitter:image" content="https://Susanna-rasmussen.com/assets/og-cover-investor-v2.jpg">
+<meta name="twitter:image" content="https://susanna-rasmussen.com/assets/Susanna.jpg">
 
-<!-- Structured data: Google should prefer portrait -->
+<!-- Structured data: portrait is the primary image -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Susanna Rasmussen — Independent Investor",
-  "url": "https://Susanna-rasmussen.com/",
+  "url": "https://susanna-rasmussen.com/",
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "@id": "https://Susanna-rasmussen.com/assets/Susanna.jpg",
-    "url": "https://Susanna-rasmussen.com/assets/Susanna.jpg",
+    "@id": "https://susanna-rasmussen.com/assets/Susanna.jpg",
+    "url": "https://susanna-rasmussen.com/assets/Susanna.jpg",
     "width": 1200,
     "height": 1200
   }
@@ -58,8 +67,14 @@
   "@type": "Person",
   "name": "Susanna Rasmussen",
   "jobTitle": "Independent Investor",
-  "url": "https://Susanna-rasmussen.com/",
-  "image": "https://Susanna-rasmussen.com/assets/Susanna.jpg",
+  "url": "https://susanna-rasmussen.com/",
+  "image": {
+    "@type": "ImageObject",
+    "@id": "https://susanna-rasmussen.com/assets/Susanna.jpg",
+    "url": "https://susanna-rasmussen.com/assets/Susanna.jpg",
+    "width": 1200,
+    "height": 1200
+  },
   "sameAs": ["https://github.com/Susannarasmussen"]
 }
 </script>
@@ -257,11 +272,11 @@
 
   <section class="section" id="philosophy">
     <h2>Investment Philosophy</h2>
-    <p class="muted">I don’t try to predict—I prepare. I translate macro signals into clear rules, allocate assets by purpose, and rebalance with discipline. By combining theory and practice—focusing on risk‑adjusted outcomes—and letting compounding work over time, I pursue steady growth and long‑term value creation.</p>
+    <p class="muted">I don’t try to predict—I prepare. I translate macro signals into clear rules, allocate assets by purpose, and rebalance with discipline. By combining theory and practice—focusing on risk-adjusted outcomes—and letting compounding work over time, I pursue steady growth and long-term value creation.</p>
     <div class="cards">
       <div class="card">
         <h3>Risk First</h3>
-        <p>Protect downside via position sizing, liquidity management, and rule‑based risk controls before seeking returns.</p>
+        <p>Protect downside via position sizing, liquidity management, and rule-based risk controls before seeking returns.</p>
       </div>
       <div class="card">
         <h3>Macro + Quant</h3>
@@ -283,10 +298,10 @@
         <div class="muted">Stockholm · Europe & Asia · 2019–Present</div>
       </div>
       <ul>
-        <li>Trade FX and derivatives via a risk‑first, rules‑based process blending macro context and quantitative signals.</li>
-        <li>Build diversified multi‑asset portfolios; schedule rebalancing to manage volatility, drawdowns, and liquidity.</li>
-        <li>Manage leased real estate for stable cash flow and long‑term appreciation.</li>
-        <li>Run due diligence across clients, markets, and jurisdictions; document decision rules and post‑trade reviews.</li>
+        <li>Trade FX and derivatives via a risk-first, rules-based process blending macro context and quantitative signals.</li>
+        <li>Build diversified multi-asset portfolios; schedule rebalancing to manage volatility, drawdowns, and liquidity.</li>
+        <li>Manage leased real estate for stable cash flow and long-term appreciation.</li>
+        <li>Run due diligence across clients, markets, and jurisdictions; document decision rules and post-trade reviews.</li>
       </ul>
     </div>
 
@@ -296,7 +311,7 @@
         <div class="muted">Stockholm · 2008–2019</div>
       </div>
       <ul>
-        <li>Senior HNW client coverage; coordinated cross‑account trading, portfolio management, and operations.</li>
+        <li>Senior HNW client coverage; coordinated cross-account trading, portfolio management, and operations.</li>
         <li>Executed restricted stock; FX liquidity derivatives; USD/EUR/GBP and commodities (gold, oil, natural gas).</li>
         <li>Partnered with Risk & Compliance to streamline workflows, strengthen controls, and enhance client experience.</li>
         <li>Developed proposals and portfolio reviews aligned to client goals and risk appetite.</li>
@@ -309,7 +324,7 @@
         <div class="muted">Malmö · 2007–2008</div>
       </div>
       <ul>
-        <li>Supported natural‑gas trading with monitoring and analysis; contributed to trade preparation and post‑trade review.</li>
+        <li>Supported natural-gas trading with monitoring and analysis; contributed to trade preparation and post-trade review.</li>
         <li>Monitored market fundamentals and assisted with risk/position tracking and reporting.</li>
       </ul>
     </div>
@@ -320,18 +335,18 @@
     <div class="grid-2">
       <div class="card">
         <h3>Stockholm School of Economics</h3>
-        <div class="muted">M.Sc. in Finance (Part‑time) · Jul 2011 – Jul 2013 · Stockholm</div>
+        <div class="muted">M.Sc. in Finance (Part-time) · Jul 2011 – Jul 2013 · Stockholm</div>
         <p>Activities: Technology & Business Club; industry talks; simulations; entrepreneurship workshops.</p>
       </div>
       <div class="card">
         <h3>HEC Paris</h3>
-        <div class="muted">EMBA (Part‑time) · Sep 2017 – Sep 2019 · Paris</div>
-        <p>Cross‑cultural projects, social‑impact initiatives, leadership workshops, and case competitions (team lead).</p>
+        <div class="muted">EMBA (Part-time) · Sep 2017 – Sep 2019 · Paris</div>
+        <p>Cross-cultural projects, social-impact initiatives, leadership workshops, and case competitions (team lead).</p>
       </div>
       <div class="card">
         <h3>University of California, Berkeley</h3>
-        <div class="muted">Master’s in Finance (Full‑time) · Sep 2005 – May 2007 · Berkeley, CA</div>
-        <p>Accounting Club; management‑accounting seminars in collaboration with IMA. Returned to Stockholm after graduation.</p>
+        <div class="muted">Master’s in Finance (Full-time) · Sep 2005 – May 2007 · Berkeley, CA</div>
+        <p>Accounting Club; management-accounting seminars in collaboration with IMA. Returned to Stockholm after graduation.</p>
       </div>
     </div>
   </section>
@@ -342,11 +357,11 @@
       <div class="card">
         <h3>Core</h3>
         <div>
-          <span class="pill">Multi‑asset portfolios & rebalancing</span>
+          <span class="pill">Multi-asset portfolios & rebalancing</span>
           <span class="pill">Risk budgeting & drawdown control</span>
           <span class="pill">Liquidity management</span>
-          <span class="pill">Rules‑based execution</span>
-          <span class="pill">Due diligence & post‑trade review</span>
+          <span class="pill">Rules-based execution</span>
+          <span class="pill">Due diligence & post-trade review</span>
         </div>
       </div>
       <div class="card">
@@ -354,7 +369,7 @@
         <div>
           <span class="pill">FX & derivatives (USD/EUR/GBP)</span>
           <span class="pill">Gold, oil, natural gas</span>
-          <span class="pill">Cash‑flow real estate</span>
+          <span class="pill">Cash-flow real estate</span>
           <span class="pill">HNW client coverage</span>
           <span class="pill">Trade & ops workflows</span>
         </div>
@@ -393,7 +408,7 @@
         <div class="copy-wrap">
           <span class="label">Email:</span>
           <span id="emailValue">susanne.3363@gmail.com</span>
-          <button class="copy-btn" data-copy="Susanna.3363@gmail.com" type="button">Copy</button>
+          <button class="copy-btn" data-copy="susanne.3363@gmail.com" type="button">Copy</button>
         </div>
       </div>
 
@@ -457,7 +472,7 @@
     const msg = document.getElementById('msgInput').value.trim();
     const subject = encodeURIComponent('Quick message from ' + name);
     const body = encodeURIComponent(msg + '\n\n— From: ' + name + ' (' + from + ')');
-    const href = 'mailto:Susanna.3363@gmail.com?subject=' + subject + '&body=' + body;
+    const href = 'mailto:susanne.3363@gmail.com?subject=' + subject + '&body=' + body;
     window.location.href = href;
     return false; // prevent real submit
   }
