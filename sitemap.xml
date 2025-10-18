@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://susanna-rasmussen.com/</loc>
+    <lastmod>2025-10-11</lastmod>
+    <image:image>
+      <image:loc>https://susanna-rasmussen.com/assets/Susanna.jpg</image:loc>
+      <image:caption>Portrait of Susanna Rasmussen — Independent Investor</image:caption>
+    </image:image>
+  </url>
+  <!-- 如有其它重要页面，按同格式添加，并**只用 https:// 前缀** -->
+</urlset>
